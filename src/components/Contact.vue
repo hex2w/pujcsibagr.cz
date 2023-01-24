@@ -1,0 +1,51 @@
+<template>
+
+<svg class="fill-white bg-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path d="M0,160L120,149.3C240,139,480,117,720,128C960,139,1200,181,1320,202.7L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
+</svg>
+
+<section id="kontakt" class="min-h-screen">
+
+<div class="flex flex-col lg:flex-row-reverse gap-8 lg:gap-16 bg-gray-800 text-white min-h-screen">
+
+<div class="my-auto lg:pl-40 w-3/5 text-xl lg:text-2xl">
+    <h2 class="text-3xl lg:text-4xl font-semibold tracking-wide">Kontakt</h2>
+
+    <p class="p-5">
+        Miroslav Doležal<br />
+        Staré Dobrkovice 15<br />
+        381 01 Český Krumlov<br />
+        IČ: 734 205 90
+    </p>
+
+    <p class="px-5 flex flex-col gap-2">
+        <div class="inline-flex gap-5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 my-auto">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" />
+            </svg>
+            <a class="transition-all hover:scale-110 hover:text-cyan-500" href="tel:+724524580">
+                724 524 580
+            </a>
+        </div>
+        <div class="inline-flex gap-5">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 my-auto">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+            </svg>
+            <a class="transition-all hover:scale-110 hover:text-cyan-500" href="mailto:medoskaa@seznam.cz">
+                medoskaa@seznam.cz
+            </a>
+        </div>
+    </p>
+</div>
+
+<iframe class="w-2/5 p-5" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4818.035832290107!2d14.279010807780432!3d48.81905553267616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47735dea2ab91cef%3A0xd1efa9f8751343d8!2sStar%C3%A9%20Dobrkovice%2015%2C%20381%2001%20K%C3%A1jov!5e0!3m2!1sen!2scz!4v1674331894948!5m2!1sen!2scz" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+
+<svg class="fill-white bg-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path d="M0,160L120,149.3C240,139,480,117,720,128C960,139,1200,181,1320,202.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
+</svg>
+
+</section>
+
+</template>
