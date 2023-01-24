@@ -40,7 +40,11 @@ import bobcatLogoUrl from "../assets/bobcat-logo.jpg"
     <div class="bg-gray-800 text-white pt-24 lg:pt-34">
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">  
-        <h2 class="text-lg font-semibold leading-8 text-cyan-400 sm:text-center">BOBCAT&nbsp;E19</h2>
+        
+        <div class="inline-flex gap-4">
+            <h2 class="my-auto text-3xl lg:text-4xl font-semibold leading-8 text-cyan-400 sm:text-center">BOBCAT&nbsp;E19</h2>
+            <img :src="bobcatLogoUrl" alt="Bobcat Logo" class="invert my-auto h-20" />
+        </div>
 
         <div class="mt-20 max-w-lg sm:mx-auto md:max-w-none">
             <div class="grid grid-cols-1 gap-y-16 md:grid-cols-2 md:gap-x-12 md:gap-y-16">
