@@ -26,7 +26,7 @@ const routes = [
 
 <template>
 
-<nav class="z-50 bg-slate-300 bg-opacity-90 backdrop-blur-md px-2 sm:px-4 py-2.5 fixed w-full">
+<nav class="z-50 bg-gray-900 text-white bg-opacity-100 backdrop-blur-md px-2 sm:px-4 py-2.5 fixed w-full">
     <div class="container py-2 md:py-0 px-6 flex flex-wrap items-center justify-between mx-auto rounded-lg">
         <a href="/#domu" class="flex items-center">
             <img :src="excavatorUrl" class="h-6 mr-3 sm:h-9" alt="Logo" />
@@ -38,14 +38,14 @@ const routes = [
             </svg>
             <span class="transition-all text-xl hover:text-cyan-500">724 524 580</span>
         </a>
-        <button @click="open = !open" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
+        <button @click="open = !open" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-100 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
             <span class="sr-only">Otevřít menu</span>
-            <svg class="w-6 h-6" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+            <svg class="w-6 h-6 fill-white" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
         </button>
         <div :class="[ open ? 'block' : 'hidden', 'w-full md:block md:w-auto' ]">
         <ul class="flex flex-col space-y-2 md:space-y-0 p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 md:bg-transparent">
             <li v-for="route in routes">
-                <a :href="route.path" class="block py-2 pl-3 pr-4 text-white bg-slate-600 rounded md:bg-transparent md:p-0 md:text-slate-600">{{ route.name }}</a>
+                <a :href="route.path" class="block py-2 pl-3 pr-4 text-white bg-slate-600 rounded md:bg-transparent md:p-0">{{ route.name }}</a>
             </li>
         </ul>
         </div>
