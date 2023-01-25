@@ -1,6 +1,6 @@
 <script setup>
 import bagr3Url from "../assets/bagr-3.jpg"
-import bobcatLogoUrl from "../assets/bobcat-logo.jpg"
+import bobcatLogoUrl from "../assets/bobcat-logo.png"
 </script>
 
 <template>
@@ -41,9 +41,11 @@ import bobcatLogoUrl from "../assets/bobcat-logo.jpg"
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">  
         
-        <div class="inline-flex gap-4">
-            <h2 class="my-auto text-3xl lg:text-4xl font-semibold leading-8 text-cyan-400 sm:text-center">BOBCAT&nbsp;E19</h2>
-            <img :src="bobcatLogoUrl" alt="Bobcat Logo" class="invert my-auto h-20" />
+        <div class="flex">
+            <div class="mx-auto inline-flex gap-4">
+                <h2 class="my-auto text-3xl lg:text-4xl font-semibold leading-8 text-cyan-400 sm:text-center">BOBCAT&nbsp;E19</h2>
+                <img :src="bobcatLogoUrl" alt="Bobcat Logo" class="invert my-auto h-12" />
+            </div>
         </div>
 
         <div class="mt-20 max-w-lg sm:mx-auto md:max-w-none">

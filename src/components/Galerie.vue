@@ -1,12 +1,13 @@
 <script setup>
 import { Swiper, SwiperSlide } from "swiper/vue"
-import { Navigation, Pagination, A11y } from "swiper"
+import { Navigation, Pagination, A11y, Autoplay } from "swiper"
 import "swiper/css"
 import "swiper/css/navigation"
 import "swiper/css/pagination"
+import "swiper/css/autoplay"
 
 
-const modules = [ Navigation, Pagination, A11y ]
+const modules = [ Navigation, Pagination, A11y, Autoplay ]
 
 let images = []
 for (let step = 0; step < 10; step++) {
@@ -19,16 +20,25 @@ for (let step = 0; step < 10; step++) {
 
 <section id="galerie">
 
-<div class="p-5">
+<div class="p-5 flex">
     <Swiper
         :slides-per-view="1"
         :space-between="50"
         :modules="modules"
         navigation
         :pagination="{ clickable: true }"
+        :autoplay="{ delay: 5000 }"
+        class="mx-auto max-w-7xl max-h-[80vh] flex bg-slate-100 rounded-lg"
     >
-        <SwiperSlide v-for="(imageUrl, index) in images">
-            <img class="object-cover object-center w-full max-h-[70vh]" :src="imageUrl" :alt="`Slide ${index}`" />
+        <SwiperSlide 
+            v-for="(imageUrl, index) in images"
+            class="mx-auto my-auto flex"
+        >
+            <img
+                :src="imageUrl"
+                :alt="`Slide ${index}`"
+                class="mx-auto my-auto"
+            />
         </SwiperSlide>
     </Swiper>
 </div>
