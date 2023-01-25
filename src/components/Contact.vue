@@ -1,12 +1,14 @@
 <template>
 
+<!--
 <svg class="fill-white bg-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path d="M0,160L120,149.3C240,139,480,117,720,128C960,139,1200,181,1320,202.7L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path>
 </svg>
+-->
 
-<section id="kontakt" class="">
+<section id="kontakt">
 
-<div class="flex flex-col lg:flex-row-reverse gap-8 lg:gap-16 bg-gray-800 text-white">
+<div class="flex flex-col min-h-screen lg:flex-row-reverse gap-8 lg:gap-16 bg-gray-800 text-white">
 
 <div class="my-auto pl-6 lg:pl-40 lg:w-3/5 text-xl lg:text-2xl">
     <h2 class="text-3xl lg:text-4xl font-semibold tracking-wide">Kontakt</h2>
@@ -38,13 +40,15 @@
     </p>
 </div>
 
-<iframe class="lg:w-2/5 p-5 h-screen md:h-[80vh]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4818.035832290107!2d14.279010807780432!3d48.81905553267616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47735dea2ab91cef%3A0xd1efa9f8751343d8!2sStar%C3%A9%20Dobrkovice%2015%2C%20381%2001%20K%C3%A1jov!5e0!3m2!1sen!2scz!4v1674331894948!5m2!1sen!2scz" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe class="lg:w-2/5 p-5 h-screen md:h-[80vh] my-auto" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4818.035832290107!2d14.279010807780432!3d48.81905553267616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47735dea2ab91cef%3A0xd1efa9f8751343d8!2sStar%C3%A9%20Dobrkovice%2015%2C%20381%2001%20K%C3%A1jov!5e0!3m2!1sen!2scz!4v1674331894948!5m2!1sen!2scz" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 </div>
 
+<!--
 <svg class="fill-white bg-gray-800" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
     <path d="M0,160L120,149.3C240,139,480,117,720,128C960,139,1200,181,1320,202.7L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path>
 </svg>
+-->
 
 </section>
 

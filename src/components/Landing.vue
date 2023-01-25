@@ -43,9 +43,11 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
 </Transition>
 
 <div>
+    <!--
     <svg class="bg-gray-800 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 240"><path d="M0,192L120,181.3C240,171,480,149,720,154.7C960,160,1200,192,1320,208L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
+    -->
 
-    <div id="bobcat-e19" class="bg-gray-800 text-white pt-24 lg:pt-34">
+    <div id="bobcat-e19" class="bg-gray-800 text-white py-24 lg:py-34">
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">  
         
@@ -143,7 +145,9 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
 
     </div>
 
+    <!--
     <svg class="bg-gray-800 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 240"><path d="M0,192L120,181.3C240,171,480,149,720,154.7C960,160,1200,192,1320,208L1440,224L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    -->
 </div>
 
 </section>

@@ -18,7 +18,7 @@ for (let step = 0; step < 10; step++) {
 
 <template>
 
-<section id="galerie">
+<section id="galerie" class="py-24 lg:py-34">
 
 <div class="p-5 flex">
     <Swiper
