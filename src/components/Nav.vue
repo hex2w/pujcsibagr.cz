@@ -43,7 +43,7 @@ const routes = [
             <svg class="w-6 h-6" aria-hidden="true" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
         </button>
         <div :class="[ open ? 'block' : 'hidden', 'w-full md:block md:w-auto' ]">
-        <ul class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 md:bg-transparent">
+        <ul class="flex flex-col space-y-2 md:space-y-0 p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-lg md:font-medium md:border-0 md:bg-transparent">
             <li v-for="route in routes">
                 <a :href="route.path" class="block py-2 pl-3 pr-4 text-white bg-slate-600 rounded md:bg-transparent md:p-0 md:text-slate-600">{{ route.name }}</a>
             </li>

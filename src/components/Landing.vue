@@ -30,6 +30,14 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
         </a>
     </div>
     <img class="lg:w-1/2 md:my-10 md:mx-12 lg:my-auto lg:rounded-lg object-cover object-left" :src="bagr3Url" alt="Bagr">
+
+    <div class="w-full absolute bottom-0 hidden md:flex">
+        <a href="/#bobcat-e19" class="transition-all hover:scale-125 hover:bg-cyan-400 mx-auto p-2 rounded-full bg-cyan-300 mb-5">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 stroke-white">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
+            </svg>
+        </a>
+    </div>
 </div>
 
 </Transition>
@@ -37,7 +45,7 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
 <div>
     <svg class="bg-gray-800 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 240"><path d="M0,192L120,181.3C240,171,480,149,720,154.7C960,160,1200,192,1320,208L1440,224L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z"></path></svg>
 
-    <div class="bg-gray-800 text-white pt-24 lg:pt-34">
+    <div id="bobcat-e19" class="bg-gray-800 text-white pt-24 lg:pt-34">
 
     <div class="mx-auto max-w-7xl px-6 lg:px-8">  
         
