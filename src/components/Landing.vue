@@ -32,7 +32,7 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
     <img class="lg:w-1/2 md:my-10 md:mx-12 lg:my-auto lg:rounded-lg object-cover object-left" :src="bagr3Url" alt="Bagr">
 
     <div class="w-full absolute bottom-0 hidden md:flex">
-        <a href="/#bobcat-e19" class="transition-all hover:scale-125 hover:bg-cyan-400 mx-auto p-2 rounded-full bg-cyan-300 mb-5">
+        <a href="/#bobcat-e19" class="transition-all hover:scale-125 hover:bg-cyan-500 mx-auto p-2 rounded-full bg-cyan-400 mb-5">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10 stroke-white">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 13.5L12 21m0 0l-7.5-7.5M12 21V3" />
             </svg>
