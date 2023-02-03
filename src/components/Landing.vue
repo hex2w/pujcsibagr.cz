@@ -29,7 +29,7 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
             <span class="transition-all hover:scale-110">Specifikace stroje</span>
         </a>
     </div>
-    <img class="lg:w-1/2 md:my-10 md:mx-12 lg:my-auto lg:rounded-lg object-cover object-left" :src="bagr3Url" alt="Bagr">
+    <img class="lg:w-1/2 pt-10 lg:pt-0 md:my-10 md:mx-12 lg:my-auto lg:rounded-lg object-cover object-left" :src="bagr3Url" alt="Bagr">
 
     <div class="w-full absolute bottom-0 hidden md:flex">
         <a href="/#bobcat-e19" class="transition-all hover:scale-125 hover:bg-cyan-500 mx-auto p-2 rounded-full bg-cyan-400 mb-5">
