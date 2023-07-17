@@ -21,6 +21,10 @@ const routes = [
         name: "Galerie",
         path: "/#galerie",
     },
+    {
+        name: "Instruktáž",
+        path: "/#instruktaz",
+    },
 ]
 </script>
 

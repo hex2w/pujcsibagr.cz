@@ -3,7 +3,8 @@ import Nav from "./components/Nav.vue"
 import Landing from "./components/Landing.vue"
 import Pricing from "./components/Pricing.vue"
 import Contact from "./components/Contact.vue"
-import Galerie from "./components/Galerie.vue"
+import Gallery from "./components/Gallery.vue"
+import Video from "./components/Video.vue"
 import Footer from "./components/Footer.vue"
 </script>
 
@@ -14,7 +15,8 @@ import Footer from "./components/Footer.vue"
     <Landing />
     <Pricing />
     <Contact />
-    <Galerie />
+    <Gallery />
+    <Video />
 </div>
 <Footer />
 
