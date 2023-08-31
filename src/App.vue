@@ -4,7 +4,7 @@ import Landing from "./components/Landing.vue"
 import Pricing from "./components/Pricing.vue"
 import Contact from "./components/Contact.vue"
 import Gallery from "./components/Gallery.vue"
-import Video from "./components/Video.vue"
+import Training from "./components/Training.vue"
 import Footer from "./components/Footer.vue"
 </script>
 
@@ -16,7 +16,7 @@ import Footer from "./components/Footer.vue"
     <Pricing />
     <Contact />
     <Gallery />
-    <Video />
+    <Training />
 </div>
 <Footer />
 
