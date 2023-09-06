@@ -210,7 +210,7 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
                                     class="my-auto sm:min-w-0 sm:flex-1 text-lg leading-8"
                                 >
                                     Long Arm - prodloužené rameno hydraulické
-                                    ruky pro delší dosah až 2565cm.
+                                    ruky pro delší dosah 3,7 m, hloubkový dosah přes 2,5 m.
                                 </p>
                             </div>
                         </div>
