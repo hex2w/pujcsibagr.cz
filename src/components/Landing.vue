@@ -153,7 +153,7 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
                                 >
                                     Díky roztahovatelnému pásovému podvozku je
                                     bagr dostatečně stabilní. Při zasunutí pásů
-                                    však dokáže projet prostorem o šířce 1m.
+                                    však dokáže projet prostorem o šířce 1 m.
                                 </p>
                             </div>
                             <div
@@ -181,9 +181,9 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
                                     class="my-auto sm:min-w-0 sm:flex-1 text-lg leading-8"
                                 >
                                     Příslušenství je
-                                    volitelné&nbsp;-&nbsp;okopová lžíce 25cm,
-                                    50cm se zuby a hydraulicky naklápěná svahová
-                                    lžíce 100cm.
+                                    volitelné&nbsp;-&nbsp;okopová lžíce 25 cm,
+                                    50 cm se zuby a hydraulicky naklápěná svahová
+                                    lžíce 100 cm.
                                 </p>
                             </div>
                             <div
