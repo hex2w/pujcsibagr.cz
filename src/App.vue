@@ -1,11 +1,11 @@
 <script setup>
-import Nav from "./components/Nav.vue"
-import Landing from "./components/Landing.vue"
-import Pricing from "./components/Pricing.vue"
-import Contact from "./components/Contact.vue"
-import Gallery from "./components/Gallery.vue"
-import Training from "./components/Training.vue"
-import Footer from "./components/Footer.vue"
+import Nav from "./blocks/Nav.vue"
+import Landing from "./blocks/Landing.vue"
+import Pricing from "./blocks/Pricing.vue"
+import Contact from "./blocks/Contact.vue"
+import Gallery from "./blocks/Gallery.vue"
+import Training from "./blocks/Training.vue"
+import Footer from "./blocks/Footer.vue"
 </script>
 
 <template>

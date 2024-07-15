@@ -23,13 +23,6 @@
                 3.500,- Kč/víkend
             </dd>
         </div>
-        <div class="bg-gray-700 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-            <dt class="font-medium text-slate-200">Zapůjčení DUMPERU</dt>
-            <dd class="mt-1 text-white sm:col-span-2 sm:mt-0">
-                1.000,- Kč/den (samostatně)<br />
-                800,- Kč/den (s bagrem)
-            </dd>
-        </div>
         <div class="bg-gray-900 px-4 py-5 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
             <dt class="font-medium text-slate-200">Doprava k zákazníkovi a zpět</dt>
             <dd class="mt-1 text-white sm:col-span-2 sm:mt-0">500,-Kč (Český Krumlov a vzdálenost do 10ti km.) Nad 10km cena dle domluvy.</dd>

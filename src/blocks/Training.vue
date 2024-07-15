@@ -48,22 +48,6 @@ const videos = [
         name: "Bobcat E19 podvozek roztahování",
         id: "yC5VUE7drDE",
     },
-    {
-        name: "Dumper popis",
-        id: "Wdwum71yXdo",
-    },
-    {
-        name: "Dumper ovládací prvky",
-        id: "YNRrxV-v74Y",
-    },
-    {
-        name: "Dumper nakládka štěrku",
-        id: "9ulBu1Pm0Vs",
-    },
-    {
-        name: "Dumper nakládka zeminy",
-        id: "0VsRTzCCeRo",
-    },
 ]
 
 const currentId = ref(videos[0].id)
