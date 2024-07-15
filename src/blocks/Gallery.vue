@@ -45,7 +45,7 @@ if (images.length === 0) {
 </script>
 
 <template>
-<section id="galerie" class="flex">
+<section id="galerie" class="flex bg-gray-800">
     <TransitionRoot as="template" :show="dialogOpen">
         <Dialog as="div" class="relative z10" @close="dialogOpen = false">
             <TransitionChild as="template" enter="ease-out duration-300"

@@ -14,9 +14,9 @@ import Footer from "./blocks/Footer.vue"
 <div class="z-10 lg:text-lg">
     <Landing />
     <Pricing />
+    <Training />
     <Contact />
     <Gallery />
-    <Training />
 </div>
 <Footer />
 

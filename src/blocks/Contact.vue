@@ -8,10 +8,10 @@
 
 <section id="kontakt">
 
-<div class="flex flex-col min-h-screen lg:flex-row-reverse gap-8 lg:gap-16 bg-gray-800 text-white">
+<div class="flex flex-col min-h-screen lg:flex-row-reverse gap-8 lg:gap-16 bg-white text-gray-800">
 
 <div class="my-auto pl-6 pt-20 lg:pt-0 lg:pl-40 lg:w-3/5 text-xl lg:text-2xl">
-    <h2 class="text-3xl lg:text-4xl font-semibold tracking-wide">Kontakt</h2>
+    <h2 class="pl-5 text-3xl lg:text-4xl font-semibold tracking-wide">Kontakt</h2>
 
     <p class="p-5">
         Miroslav Doležal<br />

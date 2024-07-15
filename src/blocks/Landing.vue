@@ -1,5 +1,5 @@
 <script setup>
-import landingUrl from "../assets/landing.jpg"
+import landingUrl from "../assets/landing.png"
 import bobcatLogoUrl from "../assets/bobcat-logo.png"
 </script>
 
@@ -39,7 +39,7 @@ import bobcatLogoUrl from "../assets/bobcat-logo.png"
                         <span class="transition-all hover:scale-110">Specifikace stroje</span>
                     </a>
                 </div>
-                <img class="lg:w-1/2 pt-10 lg:pt-16 md:my-10 md:mx-12 lg:my-auto lg:rounded-lg object-cover object-center"
+                <img class="lg:w-1/2 mt-10 md:my-10 md:mx-12 lg:my-auto lg:rounded-lg object-cover object-center"
                     :src="landingUrl" alt="Bagr" />
 
                 <div class="w-full absolute bottom-0 hidden md:flex">
