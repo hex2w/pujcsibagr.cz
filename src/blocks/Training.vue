@@ -5,6 +5,10 @@ import Video from "./Video.vue"
 
 const videos = [
     {
+        name: "Bobcat E19 - přidržovací palec",
+        id: "gZgnQv20En0",
+    },
+    {
         name: "Bobcat E19 před zahájením činnosti",
         id: "kRHzfO3ltWw",
     },
